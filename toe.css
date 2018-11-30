@@ -1,0 +1,78 @@
+body{
+    background-image: url("wallpaper2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+.content{
+    position: absolute;
+    left: 30%;
+    top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 600px;
+    margin-top: 30px;
+}
+.cell{
+    height: 150px;
+    width: 150px;
+    font-size: 90px;
+    cursor: pointer;
+    color: white;
+    border-radius: 14px;
+    margin: 20px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'Permanent Marker', cursive;
+    opacity: 0.8;
+    box-shadow: white 0px 0px 20px 1px;
+}
+.playerone  {
+    display: none;
+    width: 700px;
+    top: 223px;
+    background-color: #165c94d1;
+    position: absolute;
+    left: 36%;
+    margin-left: -150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 82px;
+    color: #ffffff;
+    font-family: 'Rock Salt', cursive;
+}
+ .playertwo{
+    display: none;
+    width: 700px;
+    top: 223px;
+    background-color: #562015a1;
+    position: absolute;
+    left: 36%;
+    margin-left: -150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 82px;
+    color: #ffffff;
+    font-family: 'Rock Salt', cursive;
+}
+
+.cell:hover{
+    background-color: #FFEB3B;
+    opacity: 0.2;
+}
+
+.restart-button{
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.tic-text{
+    text-align: center;
+    color: white;
+
+}

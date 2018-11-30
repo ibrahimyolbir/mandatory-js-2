@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="toe.css">
+  <script src="tac.js" defer></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <h1 class="tic-text">TIC TAC TOE</h1>
+  <div class="content">
+    <div class="cell" id="0"></div>
+    <div class="cell" id="1"></div>
+    <div class="cell" id="2"></div>
+    <div class="cell" id="3"></div>
+    <div class="cell" id="4"></div>
+    <div class="cell" id="5"></div>
+    <div class="cell" id="6"></div>
+    <div class="cell" id="7"></div>
+    <div class="cell" id="8"></div>
+  </div>
+  <div class="playerone">
+    <h1>WINNER : Player One!</h1>
+    <span class="restart-button">
+        <i onclick="startGame()" class="fas fa-redo-alt"> Restart Game</i>
+    </span>
+  </div>
+  <div class="playertwo">
+      <h1>WINNER : Player Two!</h1>
+      <span class="restart-button">
+          <i onclick="startGame()" class="fas fa-redo-alt"> Restart Game</i>
+      </span>
+    </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
